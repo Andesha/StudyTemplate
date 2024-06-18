@@ -13,3 +13,9 @@ A template for running and maintaining an EEG study
     * Version control principles and how to download most open source projects
 5. [MNE Python](https://mne.tools/stable/index.html)
     * Main platform for interacting with data
+
+## Current Notebooks
+
+1. `init_bids_study`
+2. `explore_subject`
+3. 
