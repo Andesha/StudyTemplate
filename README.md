@@ -31,3 +31,9 @@ You may also install it via pip with: `pip install jupyterlab`. It can then be l
     * Version control principles and how to download most open source projects
 5. [MNE Python](https://mne.tools/stable/index.html)
     * Main platform for interacting with data
+
+
+### TODO:
+
+* Test more on Windows and Anaconda
+* Add extended descriptions of notebooks to indicate flow
