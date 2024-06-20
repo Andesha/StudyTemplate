@@ -22,7 +22,10 @@ Below is a list of notebooks in a rough ordering of their intended use.
     * Inspects a bunch of features of a single source recording to determine quality and necessary steps for initialization
 3. `init_bids_study`
     * Walks through the steps of building a BIDS study from a list of source files
-4. `art?`
+4. `quick_clean`
+    * Performs very basic artifact detection on all bids subjects in the project before saving them to a derivative
+5. `erp_study`
+    * Based on conditions, performs a traditional ERP study on all subjects in the derivatives
 
 ## Must Read Material and Skills
 
@@ -42,4 +45,4 @@ Below is a list of notebooks in a rough ordering of their intended use.
 
 * Test with full data on Windows and Anaconda
     * initial tests are good though!
-* Finish extended descriptions of notebooks to indicate flow
+* Gather feedback
