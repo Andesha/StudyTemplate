@@ -14,10 +14,15 @@ You may also install it via pip with: `pip install jupyterlab`. It can then be l
 
 ## Current Notebooks
 
+Below is a list of notebooks in a rough ordering of their intended use.
+
 1. `test_environment`
-2. `init_bids_study`
-3. `explore_subject`
-4. 
+    * Installs necessary packages and does some basic plotting to verify that things are working
+2. `explore_source` 
+    * Inspects a bunch of features of a single source recording to determine quality and necessary steps for initialization
+3. `init_bids_study`
+    * Walks through the steps of building a BIDS study from a list of source files
+4. `art?`
 
 ## Must Read Material and Skills
 
@@ -35,5 +40,6 @@ You may also install it via pip with: `pip install jupyterlab`. It can then be l
 
 ### TODO:
 
-* Test more on Windows and Anaconda
-* Add extended descriptions of notebooks to indicate flow
+* Test with full data on Windows and Anaconda
+    * initial tests are good though!
+* Finish extended descriptions of notebooks to indicate flow
