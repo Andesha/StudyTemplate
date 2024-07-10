@@ -2,6 +2,19 @@
 
 A template for running and maintaining an EEG study.
 
+## Requirements
+
+This project assumes that you are running at least **Python version 3.11**. This can be checked by running the following code snippet inside of an interpreter.
+
+```python
+import sys
+print(sys.version)
+```
+
+This should return a string similar to `3.11.0rc1 (main, Aug 12 2022, 10:02:14) [GCC 11.2.0]`.
+
+If not, follow your platform's instructions for adding new versions of Python. If you are unable or unfamiliar with this, please contact us, or open an issue.
+
 ## First Steps
 
 To set up the environment, first install Jupyter Lab based on setup instructions from the Python software carpentry linked below.
