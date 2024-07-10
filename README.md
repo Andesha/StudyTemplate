@@ -1,6 +1,14 @@
 # StudyTemplate
 
-A template for running and maintaining an EEG study.
+This repository provides a comprehensive and modular framework for designing, conducting, and analyzing electroencephalography (EEG) studies. Whether you are a seasoned researcher or a novice in the field of neuroscience, this template aims to streamline the process of setting up EEG experiments, ensuring reproducibility, and facilitating data analysis.
+
+Particular emphasis has been given to:
+
+* Modular design to allow for any study to drop in files straight from the amplifier
+* Pre-configured project layouts in accordance with BIDS
+* Providing links to training material to improve technical skills
+* Constructing visualizations which let researchers explore the data
+
 
 ## Requirements
 
