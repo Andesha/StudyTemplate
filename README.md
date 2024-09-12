@@ -25,6 +25,22 @@ If not, follow your platform's instructions for adding new versions of Python.
 
 If you are unable or unfamiliar with this, please contact us, or open an issue.
 
+## Skill Prerequisites
+
+The following is a list of must read materials and course work for users starting their journey from scratch:
+
+1. [Software Carpentry Shell](https://swcarpentry.github.io/shell-novice/)
+    * Teaches pathing and commmon terminal use
+2. [Software Carpentry Python](https://swcarpentry.github.io/python-novice-inflammation/)
+    * Basic Python introduction involving files, plotting, and scripting
+3. [BIDS Specification](https://bids-specification.readthedocs.io/en/stable/)
+    * Contains the definitions and assumptions for how studies should be layed out
+4. [Introduction to Git](https://swcarpentry.github.io/git-novice/)
+    * Version control principles and how to download most open source projects
+5. [MNE Python](https://mne.tools/stable/index.html)
+    * Main platform for interacting with data
+
+
 ## First Steps
 
 To set up the environment, first install Jupyter Lab based on setup instructions from the Python software carpentry linked below.
@@ -49,19 +65,6 @@ Below is a list of notebooks in a rough ordering of their intended use.
     * Performs very basic artifact detection on all bids subjects in the project before saving them to a derivative
 5. `erp_study`
     * Based on conditions, performs a traditional ERP study on all subjects in the derivatives
-
-## Must Read Material and Skills
-
-1. [Software Carpentry Shell](https://swcarpentry.github.io/shell-novice/)
-    * Teaches pathing and commmon terminal use
-2. [Software Carpentry Python](https://swcarpentry.github.io/python-novice-inflammation/)
-    * Basic Python introduction involving files, plotting, and scripting
-3. [BIDS Specification](https://bids-specification.readthedocs.io/en/stable/)
-    * Contains the definitions and assumptions for how studies should be layed out
-4. [Introduction to Git](https://swcarpentry.github.io/git-novice/)
-    * Version control principles and how to download most open source projects
-5. [MNE Python](https://mne.tools/stable/index.html)
-    * Main platform for interacting with data
 
 
 ### TODO:
