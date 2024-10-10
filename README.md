@@ -23,11 +23,11 @@ This should return a string similar to `3.11.0rc1 (main, Aug 12 2022, 10:02:14) 
 
 If not, follow your platform's instructions for adding new versions of Python.
 
-If you are unable or unfamiliar with this, please contact us, or open an issue.
+If you are unable or unfamiliar with this, please contact us or open an issue.
 
 ## Skill Prerequisites
 
-The following is a list of must read materials and course work for users starting their journey from scratch:
+The following is a list of must-read materials and course work for users starting their journey from scratch:
 
 1. [Software Carpentry Shell](https://swcarpentry.github.io/shell-novice/)
     * Teaches pathing and commmon terminal use
