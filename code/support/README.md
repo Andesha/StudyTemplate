@@ -2,4 +2,4 @@
 
 Location for cloning/placing packages your study may need.
 
-All items in this folder are ignored bit git except this README, so be careful.
+All items in this folder except this README are ignored by git, so be careful.
