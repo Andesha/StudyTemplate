@@ -25,7 +25,13 @@ If not, follow your platform's instructions for adding new versions of Python.
 
 If you are unable or unfamiliar with this, please contact us or open an issue.
 
-## Skill Prerequisites
+## EEG Fundamentals and Theoretical Prerequisites
+
+If you are brand new to EEG analysis and are seeking the fundamentals from a theoretical standpoint it is suggested to start with the following list
+
+* An Introduction to the Event-Related Potential Technique, 2nd Edition (2014, MIT Press) Steven J. Luck
+
+## Technical Skill Prerequisites
 
 The following is a list of must-read materials and course work for users starting their journey from scratch:
 
@@ -43,7 +49,7 @@ The following is a list of must-read materials and course work for users startin
 
 ## First Steps
 
-To set up the environment, first install Jupyter Lab based on setup instructions from the Python software carpentry linked below.
+To set up the environment, first install Jupyter Lab based on setup instructions from the Python software carpentry linked in this document.
 
 ### Alternative Methods
 
