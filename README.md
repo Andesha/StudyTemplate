@@ -77,3 +77,8 @@ Below is a list of notebooks in a rough ordering of their intended use.
 
 * Provide some sort of graphic for skills hierarchy
 * Provide some sort of graphic for notebook flow
+
+
+## Acknowledgements 
+This work has been supported by **[EEGNet.org](https://eegnet.org)** and Brain Canada, in partnership with Brock University, Laval-CERVO and the McGill Centre for Integrative Neuroscience ([MCIN](https://mcin.ca)). 
+Thanks also to the **Canadian Open Neuroscience Platform** [CONP.ca](https://conp.ca) for additional guidance
