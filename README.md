@@ -75,6 +75,5 @@ Below is a list of notebooks in a rough ordering of their intended use.
 
 ### TODO:
 
-* Test with full data on Windows and Anaconda
-    * initial tests are good though!
-* Gather feedback
+* Provide some sort of graphic for skills hierarchy
+* Provide some sort of graphic for notebook flow
