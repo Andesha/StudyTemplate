@@ -42,7 +42,7 @@ project:
     - Amateur Science
     - Patents
     - History of Science
-  github: https://github.com/agahkarakuzu/amateur-science
+  github: https://github.com/Andesha/StudyTemplate
   banner: static/banner.jpg
   venue: Neurolibre
   subject: Living Preprint
@@ -55,11 +55,5 @@ project:
     MyST: Markedly Structured Markdown
   bibliography:
     - paper.bib
-  resources:
-    - content/figure_1.ipynb
 site:
-  template: article-theme
-  options:
-    favicon: static/favicon.ico
-    logo: static/logo.png
-    twitter: neurolibre
+  template: book-theme
