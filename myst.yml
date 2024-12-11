@@ -1,0 +1,65 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: 'Little Science, Big Science, and Beyond'
+  subtitle: 'How Amateurs Shape the Scientific Landscape'
+  thebe:
+    binder:
+      url: https://binder-preview.conp.cloud
+      repo: agahkarakuzu/amateur-science
+      ref: HEAD
+  authors:
+    - name: Evelyn McLean
+      affiliations: sundae; evergreen
+      url: https://evelyncmclean.com
+    - name: Jane Abdo
+      affiliations: polymtl
+      github: janeabdo
+      twitter: janeabdo
+    - name: Nadia Blostein
+      affiliations: polymtl
+      orcid: 0000-0002-1864-1899
+      github: NadiaBlostein
+    - name: Nikola Stikov
+      orcid: 0000-0002-8480-5230
+      corresponding: true
+      email: nikola.stikov@polymtl.ca
+      twitter: stikov
+      affiliations: polymtl; mhi; macedonia
+  affiliations:
+    - id: polymtl
+      institution: NeuroPoly Lab, Polytechnique Montreal
+      ror: https://ror.org/05f8d4e86
+      isni: 0000 0004 0435 3292
+      department: Electrical Engineering
+      address: 2500 Chem. de Polytechnique
+      city: Montreal
+      region: Quebec
+      country: Canada
+      postal_code: H3T 1J4
+      phone: 1 (514) 340-4711
+  keywords:
+    - Amateur Science
+    - Patents
+    - History of Science
+  github: https://github.com/agahkarakuzu/amateur-science
+  banner: static/banner.jpg
+  venue: Neurolibre
+  subject: Living Preprint
+  numbering:
+    headings: true
+  doi: 10.55458/neurolibre.xxxxx
+  open_access: true
+  license: CC-BY-4.0
+  abbreviations:
+    MyST: Markedly Structured Markdown
+  bibliography:
+    - paper.bib
+  resources:
+    - content/figure_1.ipynb
+site:
+  template: article-theme
+  options:
+    favicon: static/favicon.ico
+    logo: static/logo.png
+    twitter: neurolibre
