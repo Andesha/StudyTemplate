@@ -1,17 +1,38 @@
-# StudyTemplate
+# EEGStudyFlow - A template for EEG analyses
 
 This repository provides a comprehensive and modular framework for designing, conducting, and analyzing electroencephalography (EEG) studies. Whether you are a seasoned researcher or a novice in the field of neuroscience, this template aims to streamline the process of setting up EEG experiments, ensuring reproducibility, and facilitating data analysis.
 
 Particular emphasis has been given to:
 
 * Modular design to allow for any study to drop in files straight from the amplifier
-* Pre-configured project layouts in accordance with BIDS
+* Pre-configured project layouts in accordance with [BIDS](https://bids-specification.readthedocs.io/en/stable/modality-specific-files/electroencephalography.html)
 * Providing links to training material to improve technical skills
 * Constructing visualizations which let researchers explore the data
 
+## Prerequisites
+### EEG Fundamentals
 
-## Requirements
+If you are brand new to EEG analysis and are seeking the fundamentals from a theoretical standpoint it is suggested to start with the following list:
 
+* [Learning EEG: a self-guided course and atlas](https://www.learningeeg.com)
+* [Virtual ERP Boot Camp: Introduction to ERPs](https://courses.erpinfo.org/courses/Intro-to-ERPs)
+* [EEG resources at the INCF Training Space](https://training.incf.org/topic-wise-search?filter=eeg)
+
+### Technical Skills
+
+The following is a list of must-read materials and course work for users starting their journey from scratch:
+
+1. [Software Carpentry Shell](https://swcarpentry.github.io/shell-novice/) teaches the rudiments of terminal use and command line interfaces
+2. [Software Carpentry Python](https://swcarpentry.github.io/python-novice-inflammation/) provides a basic Python introduction involving files, plotting, and scripting
+3. [BIDS Specification](https://bids-specification.readthedocs.io/en/stable/) contains the definitions and assumptions for how studies should be laid out
+4. [Introduction to Git](https://swcarpentry.github.io/git-novice/) introduces version control principles and how to download most open source projects
+5. [MNE Python](https://mne.tools/stable/index.html) is a platform for interacting with data
+
+## Requirements for running the content of this analysis template
+
+If you are new to command line environments, it is strongly recommended that your familiarize yourself with first tutorial in above list, "[Technical Skill Prerequisites](#technical-skill-prerequisites)". It will make your life a lot easier.
+
+### Python
 This project assumes that you are running at least **Python version 3.11**. This can be checked by running the following code snippet inside of an interpreter.
 
 ```python
@@ -21,41 +42,34 @@ print(sys.version)
 
 This should return a string similar to `3.11.0rc1 (main, Aug 12 2022, 10:02:14) [GCC 11.2.0]`.
 
-If not, follow your platform's instructions for adding new versions of Python.
+If not, follow your platform's instructions for adding new versions of Python. If you are unable or unfamiliar with this, please contact us or open an issue.
 
-If you are unable or unfamiliar with this, please contact us or open an issue.
+### Jupyter Lab
 
-## EEG Fundamentals and Theoretical Prerequisites
+Install Jupyter Lab by following the setup instructions from the Python software carpentry linked in this document ("2" in the above list of "[Technical Skill Prerequisites](#technical-skill-prerequisites)").
 
-If you are brand new to EEG analysis and are seeking the fundamentals from a theoretical standpoint it is suggested to start with the following list
+#### Alternate installation methods for Jupyter Lab
 
-* An Introduction to the Event-Related Potential Technique, 2nd Edition (2014, MIT Press) Steven J. Luck
+Another popular way of installing Python uses the "pip" Python package manager:
 
-## Technical Skill Prerequisites
+```pip install jupyterlab```
 
-The following is a list of must-read materials and course work for users starting their journey from scratch:
+On many systems, the command in question is in fact `pip3`, and so the installation command would be:
 
-1. [Software Carpentry Shell](https://swcarpentry.github.io/shell-novice/)
-    * Teaches pathing and commmon terminal use
-2. [Software Carpentry Python](https://swcarpentry.github.io/python-novice-inflammation/)
-    * Basic Python introduction involving files, plotting, and scripting
-3. [BIDS Specification](https://bids-specification.readthedocs.io/en/stable/)
-    * Contains the definitions and assumptions for how studies should be layed out
-4. [Introduction to Git](https://swcarpentry.github.io/git-novice/)
-    * Version control principles and how to download most open source projects
-5. [MNE Python](https://mne.tools/stable/index.html)
-    * Main platform for interacting with data
+```pip3 install jupyterlab```
 
+### Clone this repo locally
 
-## First Steps
+To make a local copy of this repository, use the `git` command from your Terminal app:
 
-To set up the environment, first install Jupyter Lab based on setup instructions from the Python software carpentry linked in this document.
+```git clone https://github.com/Andesha/StudyTemplate.git```
 
-### Alternative Methods
+### Running the notebooks
 
-If you have an alternative installation of Python, (i.e. not Anaconda) you may consider one of the methods in the subsequent paragraphs.
+Once Jupyter Lab is installed and you have cloned the repository, the easiest is to change directory into "StudyTemplate" and launching Jupyter Lab from there. So, assuming you are in the directory where ran the git cloning command above:
 
-You may also install it via pip with: `pip install jupyterlab`. It can then be launched from the command line via `jupyter lab`. This should produce several lines of text in your terminal. Copy and paste one of the "localhost" URLs into your browser and you should be presented with the standard Jupyter interface.
+        cd StudyTemplate
+        jupyter-lab
 
 ## Current Notebooks
 
