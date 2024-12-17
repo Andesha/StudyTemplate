@@ -62,13 +62,13 @@ On many systems, the command in question is in fact `pip3`, and so the installat
 
 To make a local copy of this repository, use the `git` command from your Terminal app:
 
-```git clone https://github.com/Andesha/StudyTemplate.git```
+```git clone https://github.com/Andesha/EEGStudyFlow.git```
 
 ### Running the notebooks
 
-Once Jupyter Lab is installed and you have cloned the repository, the easiest is to change directory into "StudyTemplate" and launching Jupyter Lab from there. So, assuming you are in the directory where ran the git cloning command above:
+Once Jupyter Lab is installed and you have cloned the repository, the easiest is to change directory into "EEGStudyFlow" and launching Jupyter Lab from there. So, assuming you are in the directory where ran the git cloning command above:
 
-        cd StudyTemplate
+        cd EEGStudyFlow
         jupyter-lab
 
 ## Current Notebooks
