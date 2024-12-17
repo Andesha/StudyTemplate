@@ -42,7 +42,7 @@ project:
     - Amateur Science
     - Patents
     - History of Science
-  github: https://github.com/Andesha/StudyTemplate
+  github: https://github.com/Andesha/EEGStudyFlow
   banner: static/banner.jpg
   venue: Neurolibre
   subject: Living Preprint
